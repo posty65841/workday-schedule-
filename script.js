@@ -29,12 +29,7 @@ function setTime() {
 
   
 
-container.addEventListener("click", function(event){
-
-    if(event.target.matches(".saveBtn")){
-        console.log(".container")
-    }
-
-
-
-} )
+  $(".saveBtn").on("click", function(){
+    let  text = $(this).siblings("textarea").val()
+    console.log("this")
+    })
