@@ -30,7 +30,6 @@ function setTime() {
   
 
   $(".saveBtn").on("click", function(){
-    
     let text = $(this).siblings('textarea').val();
     let time = $(this).siblings('div').text();
     localStorage.setItem(time, text)
