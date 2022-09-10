@@ -3,7 +3,7 @@ let container = document.querySelector(".container")
 let button = document.querySelector(".saveBtn")
 
 
-let time = moment();
+let time = moment();  //sets current time of day 
 $("#currentDay").text(time.format('MMMM Do YYYY, HH:mm:ss a'));
 
 
@@ -31,7 +31,7 @@ function setTime() {
 // if future color = green 
   
 
-  $(".saveBtn").on("click", function(){
+  $(".saveBtn").on("click", function(){ // saves what is in the text area to local storage 
     let text = $(this).siblings('textarea').val();
     let time = $(this).siblings('div').text();
     localStorage.setItem(time, text)
@@ -40,3 +40,4 @@ function setTime() {
     })
     
 
+$("#textarea-9").text(localStorage.getItem(09))
