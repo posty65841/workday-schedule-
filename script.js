@@ -1,6 +1,6 @@
 
-
-
+let container = document.querySelector(".container")
+let button = document.querySelector(".saveBtn")
 
 
 let time = moment();
@@ -21,3 +21,20 @@ function setTime() {
 
   setTime();
 
+
+
+  // try to save  just one text  to local storage 
+  // local storage = string from data-id!!!
+  //only save for 1 box at a time via event.target // event delgation- text area 
+
+  
+
+container.addEventListener("click", function(event){
+
+    if(event.target.matches(".saveBtn")){
+        console.log(".container")
+    }
+
+
+
+} )
