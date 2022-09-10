@@ -1,5 +1,4 @@
 
-let container = document.querySelector(".container")
 let button = document.querySelector(".saveBtn")
 
 
@@ -40,4 +39,14 @@ function setTime() {
     })
     
 
-$("#textarea-9").text(localStorage.getItem(09))
+    $("#textarea-09").text(localStorage.getItem('09'))
+    $("#textarea-10").text(localStorage.getItem('10'))
+    $("#textarea-11").text(localStorage.getItem('11'))
+    $("#textarea-12").text(localStorage.getItem('12'))
+    $("#textarea-13").text(localStorage.getItem('13'))
+    $("#textarea-14").text(localStorage.getItem('14'))
+    $("#textarea-15").text(localStorage.getItem('15'))
+    $("#textarea-16").text(localStorage.getItem('16'))
+    $("#textarea-17").text(localStorage.getItem('17'))
+
+  
