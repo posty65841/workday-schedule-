@@ -23,7 +23,8 @@
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-![Screen Shot 2022-09-10 at 18 40 00](https://user-images.githubusercontent.com/108698645/189505384-94a0a058-0452-437b-8347-f7409f267b99.png)
+
+![Screen Shot 2022-09-10 at 18 40 00](https://user-images.githubusercontent.com/108698645/189934413-5cc452ca-a6b4-479c-bc05-26ef9bc97f35.png)
 
 
 
